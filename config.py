@@ -3,28 +3,28 @@ import os
 
 
 # Required Variables Config
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-ADMIN = int(os.environ.get("ADMIN", ""))
+API_ID = int(os.environ.get("API_ID", "29872536"))
+API_HASH = os.environ.get("API_HASH", "65e1f714a47c0879734553dc460e98d6")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7914889256:AAEZd7ZgcWdg-qAKSNbzwe8gWbhPKUquqpk")
+ADMIN = int(os.environ.get("ADMIN", "6589879577 6618620897 1110013191 6663845789"))
 
 
 # Premium 4GB Renaming Client Config
-STRING_SESSION = os.environ.get("STRING_SESSION", "")
+STRING_SESSION = os.environ.get("STRING_SESSION", "BQGz0ToArMODo_-qQ_OiNt12S75ov8SNrCtuqsiHi4goAyM212bwSHbWn0lq6X1eNcBFDLpJsYVwCrhKEgmpgUwdklwMkwi6NN8X0yUhR7sN8q8XM_BR-L95zhzXjPKnpVApJpPq_lur75Mm2azGNiPwTkCLe-XieJHna0bNFQUQtqrYm_6h3swN5nJLclRrlUsqXwd84zACRKjmNxFOwBRrqbi_GSByJDH06Wwez5NYq9rV3yeGvZT815dlN2h4WJhqZ5IBqcNZD2P2raXN7nNjqJYSp4Bi4Mz7h1Zdgiyihsd4dp1ar4Sh2IQg2BUH6PWyCb9Aa6C1e7PKhOUqxua2rWZubAAAAAHPmT5cAA")
 
 
 # Log & Force Channel Config
-FORCE_SUBS = os.environ.get("FORCE_SUBS", "")
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+FORCE_SUBS = os.environ.get("FORCE_SUBS", "100219881813")
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002450606739"))
 
 
 # Mongo DB Database Config
-DATABASE_URL = os.environ.get("DATABASE_URL", "")
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "madflixbotz")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Nxivmbots:nxivmbots31@cluster0.w5ctt.mongodb.net/")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "rename")
 
 
 # Other Variables Config
-START_PIC = os.environ.get("START_PIC", "https://graph.org/file/ad48ac09b1e6f30d2dae4.jpg")
+START_PIC = os.environ.get("START_PIC", "https://envs.sh/NM0.jpg")
 
 
 
