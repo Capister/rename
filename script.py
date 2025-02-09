@@ -16,11 +16,11 @@ class script(object):
 <b>⦿ /viewthumb - Use This Command To See Your Thumbnail</b>
 <b>⦿ /delthumb - Use This Command To Delete Your Thumbnail</b>"""
 
-    ABOUT_TXT = """<b>About Rename Bot:</b> {}
+    ABOUT_TXT = """<b>My Name:</b> {}
 <b>Language :</b> <a href='https://python.org'>Python 3</a>
 <b>Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>Support:</b> <a href='https://t.me/Alcyone_Support'>Alcyone Support</a>
-<b>Ongoing:</b> <a href='https://t.me/Alcyonebots'>Alcyone Bots</a>
+<b>Updates:</b> <a href='https://t.me/Alcyonebots'>Alcyone Bots</a>
 <b>Developer:</b> <a href='https://t.me/Cenzeo'>Cenzo</a>
 """
 
