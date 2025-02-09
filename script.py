@@ -17,20 +17,19 @@ class script(object):
 <b>⦿ /delthumb - Use This Command To Delete Your Thumbnail</b>"""
 
     ABOUT_TXT = """<b>🤖 My Name :</b> {}
-<b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
-<b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
-<b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>📢 Channel :</b> <a href='https://t.me/Madflix_Bots'>Madflix Botz</a>
-<b>🧑‍💻 Developer :</b> <a href='https://t.me/CallAdminRobot'>Jishu Developer</a>
-
-<b>♻️ Bot Made By :</b> @Madflix_Bots"""
+<b>Language :</b> <a href='https://python.org'>Python 3</a>
+<b>Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
+<b>Network :</b> <a href='https://t.me/Nxivm_Network'>VPS</a>
+<b>Ongoing:</b> <a href='https://t.me/ongoing_nxivm'>Nxivm Ongoing</a>
+<b>Owner :</b> <a href='https://t.me/iblame'>Saint</a>
+"""
 
     DONATE_TXT = """
 <b>🥲 Thanks For Showing Interest In Donation! ❤️</b>
 
-If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
+If You loved our bot, You Can Donate Me Any Amount.
 
-<b>🛍 UPI ID:</b> <code>madflixofficial@axl</code> 
+<b>🛍 UPI ID:</b> <code>saintist.co@okaxis</code> 
 
 <b>📸 Send Screenshot After Donation To Activate Your Premium Plan </b> """
 
@@ -50,9 +49,9 @@ If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upt
 
 For Example :-
 
-<code>By @Madflix_Bots</code>
+<code>By @Nxivm_Network</code>
 
-💬 For Any Help Contact @MadflixOfficials
+💬 For Any Help Contact @cenzeo
 """
 
 
