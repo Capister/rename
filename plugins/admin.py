@@ -42,7 +42,7 @@ async def ceasepremium(bot, message):
         [InlineKeyboardButton("Cancel",callback_data = "cancel")]
         ])
 	
-    await message.reply_text("😁 Power Cease Mode...", quote=True, reply_markup=button)
+    await message.reply_text("Power Cease Mode...", quote=True, reply_markup=button)
 
 
 
