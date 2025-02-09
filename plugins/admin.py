@@ -14,23 +14,23 @@ async def warn(c, m):
         try:
             user_id = m.text.split(' ', 2)[1]
             reason = m.text.split(' ', 2)[2]
-            await m.reply_text("User Notfied Sucessfully 😁")
+            await m.reply_text("User Notfied Sucessfully")
             await c.send_message(chat_id=int(user_id), text=reason)
         except:
-            await m.reply_text("User Not Notfied Sucessfully 😔")
+            await m.reply_text("User Not Notfied Sucessfully")
             
             
 
 @Client.on_message(filters.private & filters.user(ADMIN) & filters.command(["addpremium"]))
 async def buypremium(bot, message):
     button = InlineKeyboardMarkup([
-        [InlineKeyboardButton("🪙 Basic", callback_data="vip1"),
-        InlineKeyboardButton("⚡ Standard", callback_data="vip2")],
-        [InlineKeyboardButton("💎 Pro", callback_data="vip3")],
-        [InlineKeyboardButton("✖️ Cancel ✖️",callback_data = "cancel")]
+        [InlineKeyboardButton("Basic", callback_data="vip1"),
+        InlineKeyboardButton("Standard", callback_data="vip2")],
+        [InlineKeyboardButton("Pro", callback_data="vip3")],
+        [InlineKeyboardButton("Cancel",callback_data = "cancel")]
         ])
         
-    await message.reply_text("🦋 Select Plan To Upgrade...", quote=True, reply_markup=button)
+    await message.reply_text("Select Plan To Upgrade...", quote=True, reply_markup=button)
     
     
 
@@ -39,7 +39,7 @@ async def ceasepremium(bot, message):
     button = InlineKeyboardMarkup([
         [InlineKeyboardButton("Limit 1GB", callback_data="cp1"),
         InlineKeyboardButton("All Power Cease", callback_data="cp2")],
-        [InlineKeyboardButton("✖️ Cancel ✖️",callback_data = "cancel")]
+        [InlineKeyboardButton("Cancel",callback_data = "cancel")]
         ])
 	
     await message.reply_text("😁 Power Cease Mode...", quote=True, reply_markup=button)
@@ -49,8 +49,8 @@ async def ceasepremium(bot, message):
 @Client.on_message((filters.channel | filters.private) & filters.user(ADMIN) & filters.command(["resetpower"]))
 async def resetpower(bot, message):
     button = InlineKeyboardMarkup([
-        [InlineKeyboardButton("✅ Yes",callback_data = "dft"),
-        InlineKeyboardButton("❌ No",callback_data = "cancel")]
+        [InlineKeyboardButton("Yes",callback_data = "dft"),
+        InlineKeyboardButton("No",callback_data = "cancel")]
         ])
         
     await message.reply_text(text=f"Do You Really Want To Reset Daily Limit To Default Data Limit 2GB ?", quote=True, reply_markup=button)
@@ -65,10 +65,10 @@ async def vip1(bot,update):
     user_id = id[1].replace(" ", "")
     inlimit  = 21474836500
     uploadlimit(int(user_id),21474836500)
-    usertype(int(user_id),"🪙 Basic")
+    usertype(int(user_id),"Basic")
     addpre(int(user_id))
     await update.message.edit("Added Successfully To Premium Upload Limit 20 GB")
-    await bot.send_message(user_id, f"Hey {update.from_user.mention} \n\nYou Are Upgraded To <b>🪙 Basic</b>. Check Your Plan Here /myplan")
+    await bot.send_message(user_id, f"Hey {update.from_user.mention} \n\nYou Are Upgraded To <b>Basic</b>. Check Your Plan Here /myplan")
 
 
 
@@ -78,10 +78,10 @@ async def vip2(bot,update):
     user_id = id[1].replace(" ", "")
     inlimit = 53687091200
     uploadlimit(int(user_id), 53687091200)
-    usertype(int(user_id),"⚡ Standard")
+    usertype(int(user_id),"Standard")
     addpre(int(user_id))
     await update.message.edit("Added Successfully To Premium Upload Limit 50 GB")
-    await bot.send_message(user_id, f"Hey {update.from_user.mention} \n\nYou Are Upgraded To <b>⚡ Standard</b>. Check Your Plan Here /myplan")
+    await bot.send_message(user_id, f"Hey {update.from_user.mention} \n\nYou Are Upgraded To <b>Standard</b>. Check Your Plan Here /myplan")
 
 
 
@@ -91,10 +91,10 @@ async def vip3(bot,update):
     user_id = id[1].replace(" ", "")
     inlimit = 107374182400
     uploadlimit(int(user_id), 107374182400)
-    usertype(int(user_id),"💎 Pro")
+    usertype(int(user_id),"Pro")
     addpre(int(user_id))
     await update.message.edit("Added Successfully To Premium Upload Limit 100 GB")
-    await bot.send_message(user_id, f"Hey {update.from_user.mention} \n\nYou Are Upgraded To <b>💎 Pro</b>. Check Your Plan Here /myplan")
+    await bot.send_message(user_id, f"Hey {update.from_user.mention} \n\nYou Are Upgraded To <b>Pro</b>. Check Your Plan Here /myplan")
 
 
 
@@ -107,10 +107,10 @@ async def cp1(bot,update):
     user_id = id[1].replace(" ", "")
     inlimit  = 2147483652
     uploadlimit(int(user_id), 2147483652)
-    usertype(int(user_id),"⚠️ Account Downgraded")
+    usertype(int(user_id),"Account Downgraded")
     addpre(int(user_id))
     await update.message.edit("Added Successfully To Upload Limit 2GB")
-    await bot.send_message(user_id, f"Hey {update.from_user.mention} \n\nYou Are Downgraded To Cease <b>Limit 2GB</b>. Check Your Plan Here /myplan \n\n<b>Contact Admin :</b> @MadflixOfficials")
+    await bot.send_message(user_id, f"Hey {update.from_user.mention} \n\nYou Are Downgraded To Cease <b>Limit 2GB</b>. Check Your Plan Here /myplan \n\n<b>Contact Admin :</b> @Cenzeo")
 
 
 
@@ -120,10 +120,10 @@ async def cp2(bot,update):
     user_id = id[1].replace(" ", "")
     inlimit  = 0
     uploadlimit(int(user_id), 0)
-    usertype(int(user_id),"⚠️ Account Downgraded")
+    usertype(int(user_id),"Account Downgraded")
     addpre(int(user_id))
     await update.message.edit("Added Successfully To Upload Limit 0GB")
-    await bot.send_message(user_id, f"Hey {update.from_user.mention} \n\nYou Are Downgraded To Cease <b>Limit 0GB</b>. Check Your Plan Here /myplan \n\n<b>Contact Admin :</b> @MadflixOfficials")
+    await bot.send_message(user_id, f"Hey {update.from_user.mention} \n\nYou Are Downgraded To Cease <b>Limit 0GB</b>. Check Your Plan Here /myplan \n\n<b>Contact Admin :</b> @Cenzeo")
 
 
 
@@ -135,10 +135,10 @@ async def dft(bot,update):
     user_id = id[1].replace(" ", "")
     inlimit = 2147483652
     uploadlimit(int(user_id), 2147483652)
-    usertype(int(user_id),"🆓 Free")
+    usertype(int(user_id),"Free")
     addpre(int(user_id))
     await update.message.edit("Daily Data Limit Has Been Reset Successfully.\n\nThis Account Has Default 2GB Remaining Capacity")
-    await bot.send_message(user_id, f"Hey {update.from_user.mention} \n\nYour Daily Data Limit Has Been Reset Successfully. Check Your Plan Here /myplan\n\n<b>Contact Admin :</b> @MadflixOfficials")
+    await bot.send_message(user_id, f"Hey {update.from_user.mention} \n\nYour Daily Data Limit Has Been Reset Successfully. Check Your Plan Here /myplan\n\n<b>Contact Admin :</b> @Cenzeo")
 
 
 
