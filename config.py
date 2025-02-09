@@ -14,8 +14,8 @@ STRING_SESSION = os.environ.get("STRING_SESSION", "BQGz0ToArMODo_-qQ_OiNt12S75ov
 
 
 # Log & Force Channel Config
-FORCE_SUBS = os.environ.get("FORCE_SUBS", "100219881813")
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002450606739"))
+FORCE_SUBS = os.environ.get("FORCE_SUBS", "AlcyoneBots")
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "RenameLogs"))
 
 
 # Mongo DB Database Config
@@ -24,7 +24,7 @@ DATABASE_NAME = os.environ.get("DATABASE_NAME", "rename")
 
 
 # Other Variables Config
-START_PIC = os.environ.get("START_PIC", "https://envs.sh/NM0.jpg")
+START_PIC = os.environ.get("START_PIC", "https://ibb.co/1tp35dLk")
 
 
 
