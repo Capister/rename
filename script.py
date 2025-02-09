@@ -3,37 +3,37 @@ class script(object):
     
 <b>Here Is The Help For My Commands.</b>"""
 
-    CAPTION_TXT = """<b><u>📝  HOW TO SET CAPTION</u></b>
+    CAPTION_TXT = """<b><u>HOW TO SET CAPTION</u></b>
 
 <b>⦿ /set_caption - Use This Command To Set Your Caption</b>
 <b>⦿ /see_caption - Use This Command To See Your Caption</b>
 <b>⦿ /del_caption - Use This Command To Delete Your Caption</b>"""
    
-    THUMBNAIL_TXT = """<b><u>🖼️  HOW TO SET THUMBNAIL</u></b>
+    THUMBNAIL_TXT = """<b><u>HOW TO SET THUMBNAIL</u></b>
 
 <b>⦿ You Can Add Custom Thumbnail Simply By Sending A Photo To Me....</b>
 
 <b>⦿ /viewthumb - Use This Command To See Your Thumbnail</b>
 <b>⦿ /delthumb - Use This Command To Delete Your Thumbnail</b>"""
 
-    ABOUT_TXT = """<b>🤖 My Name :</b> {}
+    ABOUT_TXT = """<b>About Rename Bot:</b> {}
 <b>Language :</b> <a href='https://python.org'>Python 3</a>
 <b>Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
-<b>Network :</b> <a href='https://t.me/Nxivm_Network'>VPS</a>
-<b>Ongoing:</b> <a href='https://t.me/ongoing_nxivm'>Nxivm Ongoing</a>
-<b>Owner :</b> <a href='https://t.me/iblame'>Saint</a>
+<b>Support:</b> <a href='https://t.me/Alcyone_Support'>Alcyone Support</a>
+<b>Ongoing:</b> <a href='https://t.me/Alcyonebots'>Alcyone Bots</a>
+<b>Developer:</b> <a href='https://t.me/Cenzeo'>Cenzo</a>
 """
 
     DONATE_TXT = """
-<b>🥲 Thanks For Showing Interest In Donation! ❤️</b>
+<b>Thanks For Showing Interest In Donation!</b>
 
 If You loved our bot, You Can Donate Me Any Amount.
 
-<b>🛍 UPI ID:</b> <code>saintist.co@okaxis</code> 
+<b>UPI ID:</b> <code>singh.in@fam</code> 
 
-<b>📸 Send Screenshot After Donation To Activate Your Premium Plan </b> """
+<b>Send Screenshot After Donation To Activate Your Premium Plan </b> """
 
-    ADMIN_TXT = """<b><u>🦋 ADMIN ALL COMMANDS HERE</u></b>
+    ADMIN_TXT = """<b><u>ADMIN ALL COMMANDS HERE</u></b>
 
 <b>⦿ /users - Use This Command To See Total Users</b>
 <b>⦿ /allids - Use This Command To See All Users IDs</b>
@@ -45,13 +45,13 @@ If You loved our bot, You Can Donate Me Any Amount.
 <b>⦿ /restart - Use This Command To Cancel All Process And Restart The Bot</b>"""
 
 
-    METADATA_TXT = """<b><u>🖼️  HOW TO SET CUSTOM METADATA</u></b>
+    METADATA_TXT = """<b><u>HOW TO SET CUSTOM METADATA</u></b>
 
 For Example :-
 
-<code>By @Nxivm_Network</code>
+<code>By @AlcyoneBots</code>
 
-💬 For Any Help Contact @cenzeo
+For Any Help Contact @cenzeo
 """
 
 
