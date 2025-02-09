@@ -19,8 +19,8 @@ async def users(client,message):
     id = str(getid())
     ids = id.split(',')
     
-    await message.reply_text(f"<b>⚡️ Total User :</b> {total_user()}\n\n<b>⚡️ Total Renamed File :</b> {total_rename}\n<b>⚡ Total Size Renamed :</b> {humanbytes(int(total_size))}", quote=True, reply_markup= InlineKeyboardMarkup([
-        [InlineKeyboardButton("🦋 Close 🦋", callback_data="cancel")]])
+    await message.reply_text(f"<b>Total User :</b> {total_user()}\n\n<b>Total Renamed File :</b> {total_rename}\n<b>Total Size Renamed :</b> {humanbytes(int(total_size))}", quote=True, reply_markup= InlineKeyboardMarkup([
+        [InlineKeyboardButton("Close", callback_data="cancel")]])
         )
 	
     
@@ -34,8 +34,8 @@ async def allids(client,message):
     id = str(getid())
     ids = id.split(',')
     
-    await message.reply_text(f"<b>⚡️ All IDs :</b> {ids}\n\n<b>⚡️ Total User :</b> {total_user()}\n\n<b>⚡️ Total Renamed File :</b> {total_rename}\n<b>⚡ Total Size Renamed :</b> {humanbytes(int(total_size))}", quote=True, reply_markup= InlineKeyboardMarkup([
-        [InlineKeyboardButton("🦋 Close 🦋", callback_data="cancel")]])
+    await message.reply_text(f"<b>All IDs :</b> {ids}\n\n<b>Total User :</b> {total_user()}\n\n<b>Total Renamed File :</b> {total_rename}\n<b>Total Size Renamed :</b> {humanbytes(int(total_size))}", quote=True, reply_markup= InlineKeyboardMarkup([
+        [InlineKeyboardButton("Close", callback_data="cancel")]])
         )
 
 
