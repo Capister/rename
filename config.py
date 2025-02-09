@@ -15,7 +15,7 @@ STRING_SESSION = os.environ.get("STRING_SESSION", "BQGz0ToArMODo_-qQ_OiNt12S75ov
 
 # Log & Force Channel Config
 FORCE_SUBS = os.environ.get("FORCE_SUBS", "AlcyoneBots")
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "2450606739"))
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002450606739"))
 
 
 # Mongo DB Database Config
