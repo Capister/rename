@@ -10,28 +10,27 @@ async def upgrade(bot,update):
 Daily  Upload limit 2GB
 Price 0
 
-**🪙 Basic**
+**Basic**
 Daily  Upload  limit 20GB
 Price Rs 49  ind /🌎 0.59$  per Month
 
-**⚡ Standard**
+**Standard**
 Daily Upload limit 50GB
 Price Rs 99  ind /🌎 1.19$  per Month
 
-**💎 Pro**
+**Pro**
 Daily Upload limit 100GB
 Price Rs 179  ind /🌎 2.16$  per Month
 
 Payment Details :-
-<b>➜ UPI ID :</b> <code>madflixofficial@axl</code>
-<b>➜ PayPal :</b> <a href='https://www.paypal.me/jishudeveloper'>Click Here</a>
-<b>➜ QR Code :</b> <a href='https://telegra.ph/QR-Payment-07-24-4'>Click Here</a>
+<b>➜ UPI ID :</b> <code>singh.in@fam</code>
+<b>➜ Binance :</b> <a href='https://t.me/transactly'>Click Here</a>
 
-After Payment Send Screenshots Of Payment To Admin @MadflixOfficials"""
+After Payment Send Screenshots Of Payment To Admin @Cenzeo"""
     
     keybord = InlineKeyboardMarkup([
-        [InlineKeyboardButton("🦋 Admin", url = "https://t.me/calladminrobot"),
-        InlineKeyboardButton("✖️ Cancel", callback_data="cancel")]
+        [InlineKeyboardButton("Admin", url = "https://t.me/cenzeo"),
+        InlineKeyboardButton("Cancel", callback_data="cancel")]
         ])
     
     await update.message.edit(text = text,reply_markup = keybord, disable_web_page_preview=True)
@@ -44,28 +43,27 @@ async def upgradecm(bot,message):
 Daily  Upload limit 2GB
 Price 0
 
-**🪙 Basic**
+**Basic**
 Daily  Upload  limit 20GB
 Price Rs 49  ind /🌎 0.59$  per Month
 
-**⚡ Standard**
+**Standard**
 Daily Upload limit 50GB
 Price Rs 99  ind /🌎 1.19$  per Month
 
-**💎 Pro**
+**Pro**
 Daily Upload limit 100GB
 Price Rs 179  ind /🌎 2.16$  per Month
 
 Payment Details :-
-<b>➜ UPI ID :</b> <code>madflixofficial@axl</code>
-<b>➜ PayPal :</b> <a href='https://www.paypal.me/jishudeveloper'>Click Here</a>
-<b>➜ QR Code :</b> <a href='https://telegra.ph/QR-Payment-07-24-4'>Click Here</a>
+<b>➜ UPI ID :</b> <code>singh.in@fam</code>
+<b>➜ PayPal :</b> <a href='https://t.me/transactly'>Click Here</a>
 
-After Payment Send Screenshots Of Payment To Admin @MadflixOfficials"""
+After Payment Send Screenshots Of Payment To Admin @cenzeo"""
     
     keybord = InlineKeyboardMarkup([
-        [InlineKeyboardButton("🦋 Admin", url = "https://t.me/calladminrobot"),
-        InlineKeyboardButton("✖️ Cancel", callback_data="cancel")]
+        [InlineKeyboardButton("Admin", url = "https://t.me/cenzeo"),
+        InlineKeyboardButton("Cancel", callback_data="cancel")]
         ])
     
     await message.reply_text(text=text, reply_markup=keybord, quote=True, disable_web_page_preview=True)
